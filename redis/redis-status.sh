@@ -6,7 +6,7 @@ METRIC="$2"
 SERV="$1"
 DB="$3"
 
-PORT="6379"
+PORT="$4"
 
 if [[ -z "$1" ]]; then
     echo "Please set server"
